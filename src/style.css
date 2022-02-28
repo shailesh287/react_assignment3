@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+background: linear-gradient(to bottom, #FFFDE4, #005AA7) no-repeat center center fixed;  
+
+}
+
+.input-box{
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: aquamarine;
+    padding: 0 5px 0 8px;
+}
+
+.form-container{
+    border: 2px solid #93B5C6;
+    width: 50%;
+    max-height: 100%;
+    background-color: #93B5C6;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 20px 5px  black;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    background-color: grey;
+}
+.elements{
+    margin: 10px 0px 0px 0px;
+}
+
+
+.submit-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(2, 50, 56);
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: grey;
+}
+
+.data-container{
+    margin: 30px 0 0 5%;
+    flex-wrap: wrap;
+    display: flex;
+    width: 90%;
+    border: 2px solid black;
+    box-sizing: content-box;
+    background-color: rgb(19, 132, 236);
+}
+
+.elmnt-container{
+    margin: 10px 5% 2% 5%;
+    padding: 5px ;
+    min-width: 90%;
+    font-size: 18px;
+    height: 40px;
+    border: 1px solid rgb(12, 4, 121);
+    background-color: rgb(141, 177, 243);
+    border-radius: 50px;
+
+}
